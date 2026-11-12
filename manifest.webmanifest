@@ -1,0 +1,15 @@
+{
+  "name": "Layover — Your people, everywhere",
+  "short_name": "LAYOVER",
+  "description": "A home for the people you meet on the road.",
+  "lang": "en",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f6f2",
+  "theme_color": "#142e31",
+  "icons": [
+    {"src":"./assets/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./assets/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}
