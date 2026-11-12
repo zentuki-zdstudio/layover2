@@ -1,6 +1,4 @@
-// ONLY the public Supabase URL + publishable/anon key belong here.
-// Never paste a secret or service_role key into this file.
 window.LAYOVER_CONFIG = {
-  supabaseUrl: '',  // example: https://your-project.supabase.co
-  publishableKey: '' // example: sb_publishable_...  (or legacy anon public key)
+  supabaseUrl: 'https://vjkmrcviehsirlkgfmax.supabase.co',
+  publishableKey: 'sb_publishable_OzdNyzph5kvYkWlq0OzWaw_ElOsi2V8'
 };
