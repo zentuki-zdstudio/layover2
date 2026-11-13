@@ -1,5 +1,5 @@
 /* Only static same-origin app files are cached. Never cache authentication or Supabase API responses. */
-const CACHE = 'layover-live-static-v2';
+const CACHE = 'layover-live-static-v3';
 const STATIC = ['./','./index.html','./styles.css','./app.js','./config.js','./manifest.webmanifest','./assets/icon.svg','./assets/icon-192.png','./assets/icon-512.png'];
 self.addEventListener('install', e=>{
   e.waitUntil(caches.open(CACHE).then(c=>c.addAll(STATIC)).then(()=>self.skipWaiting()));
